@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+      background-image: url('https://wallpaperaccess.com/full/2592568.jpg');
+      background-size: cover;
+  }
+    
+  
+  
+  .header {
+    /* background-color: #8138ac; */
+    color: rgb(125 52 129);
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .container {
+    width: 60%;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  
+  h2 {
+    margin-top: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    color: rgba(153, 73, 160, 0.808);
+  }
+  
+  /* Input Section */
+  .input-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+background-color: #f8f8f8;
+  }
+  
+  .input-section label {
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  #taskInput {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+  }
+  
+  #addTaskBtn {
+    padding: 8px 15px;
+    margin-left: 10px;
+    border: none;
+    background-color:rgb(235, 131, 131);
+    color:#eed480;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  /* rgb(235, 131, 131) */
+  /* #eed480 */
+  #addTaskBtn:hover {
+    background-color: #555;
+  }
+  
+  /* Task List */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  li span {
+    flex: 1;
+    cursor: pointer;
+  }
+  
+  .edit-btn, .delete-btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .edit-btn {
+    background-color: #30b2d6;
+    margin-right: 5px;
+  }
+  
+  .edit-btn:hover {
+    background-color: #218388;
+  }
+  
+  .delete-btn {
+    background-color: #bf3745;
+  }
+  
+  .delete-btn:hover {
+    background-color: #da2235;
+  }
+
+  @media (max-width: 1024px) {
+    .container {
+        width: 80%;
+    }
+  }
+    @media (max-width: 768px) {
+      .container {
+          width: 90%;
+          padding: 15px;
+      }
+    }
+      @media (max-width: 480px) {
+        .header {
+            font-size: 20px;
+            padding: 15px;
+        }
+      }
